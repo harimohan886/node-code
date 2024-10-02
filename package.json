@@ -1,0 +1,27 @@
+{
+  "name": "junglecrmnode",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "amqplib": "^0.10.3",
+    "axios": "^1.3.2",
+    "body-parser": "^1.20.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoosastic": "^5.0.0",
+    "mongoose": "^6.9.0",
+    "node-fetch": "^3.3.0",
+    "node-serialize": "^0.0.4",
+    "nodemon": "^2.0.20",
+    "php-serialize": "^4.0.2"
+  }
+}
